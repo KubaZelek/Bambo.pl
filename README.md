@@ -1,3 +1,23 @@
-# Bambo.pl
-Strona serwisu ogłoszeniowego sprzedającego używane ubrania
-https://trello.com/invite/przestrzenrobocza78090639/ATTIdbd0378b52f18aad0e39ffe71c10bda15E41CF7A
+
+# Bambo 
+
+Serwis ogłoszeniowy, na którym i firmy i osoby prywatne mogą sprzedawać używane, bądź nowe ubrania
+
+
+# Autorzy
+## Lider projektu
+- [@Jakub Ż](https://github.com/KubaZelek)
+
+### Frontend:
+- [@Jakub Ż](https://github.com/KubaZelek)
+- [@Piotr S](https://github.com/top-normal-programer)
+
+### Backend:
+- [@Jakub Ś](https://github.com/kracak666)
+- [@Maciej Sz](https://github.com/mtroxeq)
+
+### Strona graficzna:
+- [@Piotr S](https://github.com/top-normal-programer)
+
+
+
