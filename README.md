@@ -1,6 +1,6 @@
 
 # Bambo 
-### screeny z trello na branchu "trello"
+### zmiany na lekcjach na branchu "trello" 
 Serwis ogłoszeniowy, na którym i firmy i osoby prywatne mogą sprzedawać używane, bądź nowe ubrania
 
 
