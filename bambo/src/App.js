@@ -1,19 +1,14 @@
 import './App.css';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+const mysql = require('mysql')
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'dbuser',
+  password: 's3kreee7',
+  database: 'my_db'
+})
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDD83UzInf0ytN0oCt80UVtSwZMOqAZu7s",
-  authDomain: "bambopl-65a7a.firebaseapp.com",
-  projectId: "bambopl-65a7a",
-  storageBucket: "bambopl-65a7a.appspot.com",
-  messagingSenderId: "387024769804",
-  appId: "1:387024769804:web:b52b036eab0637faebef29",
-  measurementId: "G-EKEG1V5SGP"
-};
+connection.connect()
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 function App() {
   return (
@@ -22,5 +17,8 @@ function App() {
     </div>
   );
 }
+
+
+connection.end()
 
 export default App;
